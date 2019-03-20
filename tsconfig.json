@@ -36,22 +36,25 @@
     "baseUrl": "./",
     "paths": {
       "@api": [
-        "src/client/api/index.tsx"
+        "src/api/index.tsx"
       ],
       "@typings": [
         "src/index.d.ts"
       ],
       "@api/*": [
-        "src/client/api/*"
+        "src/api/*"
       ],
       "@assets/*": [
-        "src/client/assets/*"
+        "src/assets/*"
       ],
       "@components/*": [
-        "src/client/components/*"
+        "src/components/*"
+      ],
+      "@store/*": [
+        "src/views/*"
       ],
       "@views/*": [
-        "src/client/views/*"
+        "src/views/*"
       ]
     }
   },
