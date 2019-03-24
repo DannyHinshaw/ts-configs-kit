@@ -35,11 +35,11 @@
     "noEmit": true,
     "baseUrl": "./",
     "paths": {
-      "@api": [
-        "src/api/index.tsx"
-      ],
       "@typings": [
         "src/index.d.ts"
+      ],
+      "@api": [
+        "src/api/index.tsx"
       ],
       "@api/*": [
         "src/api/*"
@@ -51,7 +51,7 @@
         "src/components/*"
       ],
       "@store/*": [
-        "src/views/*"
+        "src/store/*"
       ],
       "@views/*": [
         "src/views/*"
