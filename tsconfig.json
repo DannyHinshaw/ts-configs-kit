@@ -10,7 +10,7 @@
     "lib": [
       "es6",
       "dom",
-      "es2017"
+      "es2018"
     ],
     "types": [
       "node"
