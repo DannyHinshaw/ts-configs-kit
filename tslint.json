@@ -139,6 +139,9 @@
       false
     ]
   },
+  "jsRules":{
+    "object-literal-sort-keys": false
+  },
   "linterOptions": {
     "exclude": [
       "config/**/*.js",
