@@ -1,19 +1,27 @@
 [*]
 charset=utf-8
 end_of_line=lf
-insert_final_newline=true
+insert_final_newline=false
 indent_style=space
-indent_size=2
+indent_size=4
 
-[{.babelrc,.stylelintrc,jest.config,.eslintrc,.prettierrc,*.json,*.jsb3,*.jsb2,*.bowerrc}]
-indent_style=space
-indent_size=2
-
-[*.js]
+[{*.ng,*.sht,*.html,*.shtm,*.shtml,*.htm}]
 indent_style=tab
 tab_width=2
 
-[{*.ats,*.ts}]
+[{.babelrc,.prettierrc,.stylelintrc,.eslintrc,jest.config,*.json,*.jsb3,*.jsb2,*.bowerrc}]
+indent_style=space
+indent_size=2
+
+[*.scss]
+indent_style=space
+indent_size=2
+
+[{*.js,*.cjs}]
+indent_style=tab
+tab_width=2
+
+[{filters,*.ats,*.ts}]
 indent_style=tab
 tab_width=2
 
@@ -21,11 +29,19 @@ tab_width=2
 indent_style=tab
 tab_width=2
 
-[*.js.flow]
+[{*.es6,*.mjs}]
 indent_style=tab
 tab_width=2
 
-[{tsconfig.app.json,tsconfig.e2e.json,tsconfig.json,tsconfig.spec.json}]
+[*.jsx]
+indent_style=tab
+tab_width=2
+
+[{jshint.json,*.jshintrc}]
+indent_style=space
+indent_size=2
+
+[{tsconfig.lib.json,tsconfig.spec.json,tsconfig.app.json,tsconfig.json,tsconfig.e2e.json}]
 indent_style=space
 indent_size=2
 
@@ -33,6 +49,6 @@ indent_size=2
 indent_style=space
 indent_size=2
 
-[*.css,*.scss]
+[{.analysis_options,*.yml,*.yaml}]
 indent_style=space
 indent_size=2
