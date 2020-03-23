@@ -1,20 +1,16 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "build/dist",
     "allowJs": true,
-    "checkJs": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "downlevelIteration": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "lib": [
       "es6",
       "dom",
-      "es2018"
-    ],
-    "types": [
-      "node"
+      "es2017",
+      "esnext.asynciterable"
     ],
     "module": "esnext",
     "moduleResolution": "node",
@@ -23,47 +19,21 @@
     "noImplicitAny": false,
     "noUnusedLocals": false,
     "removeComments": true,
+    "rootDir": "src",
     "sourceMap": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
+    "downlevelIteration": true,
     "target": "es5",
     "skipLibCheck": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "resolveJsonModule": true,
-    "isolatedModules": false,
-    "noEmit": true,
-    "baseUrl": "./",
-    "paths": {
-      "@typings": [
-        "src/index.d.ts"
-      ],
-      "@api": [
-        "src/api/index.tsx"
-      ],
-      "@api/*": [
-        "src/api/*"
-      ],
-      "@assets/*": [
-        "src/assets/*"
-      ],
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@store/*": [
-        "src/store/*"
-      ],
-      "@views/*": [
-        "src/views/*"
-      ]
-    }
+    "isolatedModules": true,
+    "noEmit": true
   },
   "include": [
     "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "./node_modules/*"
   ]
 }
