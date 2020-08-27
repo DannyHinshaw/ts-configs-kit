@@ -23,7 +23,9 @@ module.exports = {
       }
     }
   ],
-  "ignorePatterns": [],
+	"ignorePatterns": [
+		".eslintrc.js"
+	],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "tsconfig.json",
@@ -41,6 +43,9 @@ module.exports = {
     "@typescript-eslint/camelcase": 0,
     "@typescript-eslint/no-floating-promises": 0,
     "@typescript-eslint/no-unnecessary-type-assertion": 0,
+    "@typescript-eslint/no-unsafe-assignment": 0,
+		"@typescript-eslint/no-unsafe-call": 0,
+		"@typescript-eslint/no-unsafe-return": 0,
     "@typescript-eslint/require-await": 0,
     "@typescript-eslint/unbound-method": 0,
     "react-hooks/rules-of-hooks": "error",
