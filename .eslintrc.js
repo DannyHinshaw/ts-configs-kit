@@ -1,11 +1,11 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true,
-    "jest": true
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+    jest: true
   },
-  "extends": [
+  extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:react/recommended"
@@ -23,19 +23,19 @@ module.exports = {
       }
     }
   ],
-	"ignorePatterns": [
-		".eslintrc.js"
-	],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "tsconfig.json",
-    "sourceType": "module"
+  ignorePatterns: [
+    ".eslintrc.js"
+  ],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    project: "tsconfig.json",
+    sourceType: "module"
   },
-  "plugins": [
+  plugins: [
     "react-hooks",
     "@typescript-eslint"
   ],
-  "rules": {
+  rules: {
 
     // Manually Set
     "@typescript-eslint/no-inferrable-types": 0,
@@ -44,8 +44,8 @@ module.exports = {
     "@typescript-eslint/no-floating-promises": 0,
     "@typescript-eslint/no-unnecessary-type-assertion": 0,
     "@typescript-eslint/no-unsafe-assignment": 0,
-		"@typescript-eslint/no-unsafe-call": 0,
-		"@typescript-eslint/no-unsafe-return": 0,
+    "@typescript-eslint/no-unsafe-call": 0,
+    "@typescript-eslint/no-unsafe-return": 0,
     "@typescript-eslint/require-await": 0,
     "@typescript-eslint/unbound-method": 0,
     "react-hooks/rules-of-hooks": "error",
@@ -485,9 +485,9 @@ module.exports = {
     "space-before-function-paren": "off",
     "spaced-comment": "warn"
   },
-  "settings": {
-    "react": {
-      "version": "detect"
+  settings: {
+    react: {
+      version: "detect"
     }
   }
 };
