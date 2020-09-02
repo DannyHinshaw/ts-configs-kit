@@ -51,6 +51,7 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/no-unescaped-entities": "warn",
+    "react/prop-types": 0,
     "sort-imports": ["error", {
       "ignoreCase": true,
       "ignoreDeclarationSort": true,
