@@ -52,6 +52,7 @@ module.exports = {
 		"@typescript-eslint/require-await": 0,
 		"@typescript-eslint/unbound-method": 0,
 		"@typescript-eslint/no-shadow": ["error"],
+		"@typescript-eslint/no-use-before-define": ["warn"],
 
 		"react-hooks/rules-of-hooks": "error",
 		"react-hooks/exhaustive-deps": "warn",
@@ -322,14 +323,7 @@ module.exports = {
 		],
 		"no-unused-expressions": "error",
 		"no-unused-labels": "error",
-		"no-use-before-define": [
-			"warn",
-			{
-				"functions": false,
-				"classes": false,
-				"variables": false
-			}
-		],
+		"no-use-before-define": "off",
 		"no-useless-computed-key": [
 			"warn"
 		],
